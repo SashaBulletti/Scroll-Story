@@ -1,20 +1,36 @@
 .separatore{
   width: 100%;
-  height: 78%;
+  height: 107px;
+}
+.mouse{
+  width: 150px;
+  height: auto;
 }
 .letto {
     width: 25%;
     margin: -50% 0 0 50%;
 }
 .pallino {
-    width: 25px;
-    height: 25px;
-    background: red;
-    border-radius: 100%;
-    position: relative;
-    bottom: 50%;
-    left: 50%;
+    width: 30px;
+    height: 30px;
+    margin: -86% 0 0 51%;
+}
+.sfondo{
+  width: 100%;
+  height: 800px;
+  background: orangered;
+}
+.menu-capitolo {
+  text-align: center;
+  padding: 18%;
+}
+.menu-capitolo a{
+  color: #fff;
 
+}
+.pallino:hover {
+  width: 40px;
+  height: 40px;
 }
 .camera{
   float: left;
