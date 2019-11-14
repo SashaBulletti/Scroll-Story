@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
+
   <title>Freelancer - Start Bootstrap Theme</title>
 
   <!-- Custom fonts for this theme -->
@@ -15,6 +16,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/aos.css" rel="stylesheet" type="text/css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Theme CSS -->
   <link href="css/freelancer.min.css" rel="stylesheet">
@@ -27,7 +30,8 @@
 
   <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <img src="img/capitolo-1/scrolldown-1.gif" class="img-fluid mouse">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Scroll Story</a>
       <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -47,75 +51,25 @@
       </div>
     </div>
   </nav>
-
-  <!-- Masthead -->
-
-  <header>
-    <div class="separatore">nnnn</div>
-    <div class="pallino">hhhhhh</div>
-    <img src="img/capitolo-1/stanza-senza-letto.png" class="img-fluid">
-    <img src="img/capitolo-1/letto.png" class="img-fluid letto">
-
-
-  </header>
-
-  <!-- Portfolio Section -->
-  <section class="page-section portfolio" id="portfolio">
-    <div class="container">
-
-      <!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
+!-- Portfolio Section -->
+<div class="separatore">s</div>
+  <section id="portfolio">
+    <div class="sfondo">
+      <div class="menu-capitolo">
+            <p><a href="#" data-aos="fade-left">CAPITOLO 1</a></p>
+            <p><a href="#" data-aos="fade-left">CAPITOLO 2</a></p>
+            <p><a href="#" data-aos="fade-left">CAPITOLO 3</a></p>
+            <p><a href="#" data-aos="fade-left">CAPITOLO 4</a></p>
       </div>
-
-      <!-- Portfolio Grid Items -->
-
-
     </div>
+
   </section>
 
   <!-- About Section -->
-  <section class="page-section bg-primary text-white mb-0" id="about">
-    <div class="container">
-
-      <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- About Section Content -->
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
-        </div>
-      </div>
-
-      <!-- About Section Button -->
-      <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
-          <i class="fas fa-download mr-2"></i>
-          Free Download!
-        </a>
-      </div>
-
-    </div>
+  <section  id="about">
+    <img src="img/capitolo-1/stanza-senza-letto.png" class="img-fluid">
+    <img src="img/pallino-rosso.png" class="img-fluid pallino" data-aos="zoom-in">
+    <img src="img/capitolo-1/letto.png" class="img-fluid letto" data-aos="fade-left">
   </section>
 
   <!-- Contact Section -->
@@ -482,7 +436,15 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="aos.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/jscript">
 
+    AOS.init({
+      duration: 3000,
+    });
+  </script>
 </body>
 
 </html>
